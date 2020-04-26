@@ -1,0 +1,235 @@
+header{
+  background-color: black;
+  opacity: 0.5;
+  display:flex;
+  height:80px;
+  position: fixed;
+  width:100%;
+
+}
+.header_title{
+  font-size: 30px;
+  font-family: serif;
+  color:#ffffff;
+  padding-left: 70px;
+
+}
+.header_contents{
+  margin:30px 0 0 auto;
+  padding-right: 40px;
+
+}
+.header_contents :hover{
+  color: #7fffd4;
+}
+.header_contents a{
+  color:#fff;
+}
+main{
+  width:100%;
+
+}
+
+.introduction{
+  padding-top: 80px;
+  background-image: url("introduction_back.jpg");
+  background-size: cover;
+  height:auto;
+  background-color: rgba(255,255, 255, 0.6);
+  background-blend-mode: lighten;
+
+}
+.introduction_title{
+  padding-top: 15px;
+  text-align: center;
+}
+.introduction_preface{
+  padding-top: 250px;
+  margin:0 20px;
+  font-weight: bold;
+  height:auto;
+}
+.contents{
+  margin: 2em 0;
+  padding:0;
+  width:100%;
+}
+
+.contents label{
+  display: block;
+  margin:1.5px 0;
+  padding:11px 12px;
+  color:#2f8fcf;
+  font-weight: bold;
+  background: #a4cbf3;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.contents label:hover{
+  background: #85baef;
+}
+
+.contents input{
+  display: none;
+}
+
+.contents .hidden_happy{
+  height:0;
+  padding: 0;
+  overflow:hidden;
+  opacity: 0;
+  transition: 0.8s;
+}
+
+.happy_btn:checked + .hidden_happy{
+  height: auto;
+  padding: 5px;
+  background: #eaeaea;
+  opacity: 1;
+}
+
+.contents .hidden_life{
+  height:0;
+  padding: 0;
+  overflow:hidden;
+  opacity: 0;
+  transition: 0.8s;
+}
+
+.life_btn:checked + .hidden_life{
+  height: auto;
+  padding: 5px;
+  background: #eaeaea;
+  opacity: 1;
+}
+
+.contents .hidden_pillar{
+  height:0;
+  padding: 0;
+  overflow:hidden;
+  opacity: 0;
+  transition: 0.8s;
+}
+
+.pillar_btn:checked + .hidden_pillar{
+  height: auto;
+  padding: 5px;
+  background: #eaeaea;
+  opacity: 1;
+}
+.flow_top{
+  text-align: center;
+}
+
+.flow_top span{
+  border-bottom: solid 2px red;
+}
+
+.explain{
+  margin:auto 100px;
+  border-radius: 100px;
+  background-color: #00fa9a;
+}
+.explain h3{
+  padding-left:120px;
+  padding-top: 30px;
+}
+.explain p{
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 50px;
+}
+.hiking_img{
+  width: 100%;
+}
+.img_explain{
+  text-align: center;
+}
+.fas{
+  font-size: 100px;
+  color:#dc143c;
+  margin: 30px 450px;;
+
+}
+
+.camp_introduction{
+  margin-top: 150px;
+}
+
+.camp_commenter ul{
+  float: left;
+  width:220px;
+}
+.camp_commenter p{
+  padding-top: 150px;
+}
+
+.camp_comment{
+  clear: both;
+  background-color: #ffc0cb;
+  border: solid 2px;
+}
+
+.camp_comment p{
+  margin:  auto 40px;
+}
+
+.camp_voice li{
+  list-style-type: none;
+
+
+}
+.fa-child{
+  display: inline-block;
+  font-size: 150px;
+  margin-left: 30px;
+
+}
+
+
+.fa-comment{
+  font-size: 80px;
+  margin-left: 150px;
+}
+
+.click{
+  padding-top: 100px;
+  text-align: center;
+
+}
+
+.new_page{
+  margin: auto 200px;
+  display: block;
+  background-color: #1e90ff;
+  height: 60px;
+  text-decoration: none;
+  border-radius: 100px;
+  line-height: 60px;
+  color:#ffd700;
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: 0 6px #000;
+}
+
+.new_page:hover{
+  background-color: #0000ff;
+  transition: 0.8s;
+}
+.new_page:active{
+  transform: translateY(6px);
+  box-shadow: none;
+  transition: 0s;
+}
+
+footer{
+  margin-top: 200px;
+  height:100px;
+  background-color: #000;
+  color:#fff;
+  font-family: serif;
+  text-align: center;
+  line-height: 100px;
+  letter-spacing: 30px;
+}
